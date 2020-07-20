@@ -1,0 +1,3 @@
+include ':JDCalendar'
+include ':app'
+rootProject.name = "JDCalendar App"
