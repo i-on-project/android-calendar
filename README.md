@@ -14,7 +14,6 @@ JDCalendar is an open-source fully customizable calendar component for the Andro
 - Colors and text sizes are all customizable
 - Its functionalities can be easily extended to support your app requirements
 - Uses coroutines to offload operations which required heavier processing from the main thread to a background thread
-- Its methods are framework alike
 
 ## Default Implementation
 
