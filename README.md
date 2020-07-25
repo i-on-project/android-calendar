@@ -1,10 +1,10 @@
 # **JDCalendar**
-JDCalendar is an open-source fully costumizable calendar component for the Android framework.
+JDCalendar is an open-source fully customizable calendar component for the Android framework.
 
 ## Benefits
 - Colors and text sizes are all customizable
 - Its functionalities can be easily extended to support your app requirements
-- Uses coroutines to offload operations which required heavier processing from the main thread to a background thread.
+- Uses coroutines to offload operations which required heavier processing from the main thread to a background thread
 - Its methods are framework alike
 
 ## Default Implementation
@@ -51,7 +51,7 @@ This will ensure that all the coroutines launched by consequence of navigating t
 
 ### Customizable attributes
 
-The JDCalendar component contains a list of attributes which can change the color and text sizes of elements in the calendar. This attributes can be set either from the layout or the programmatically throught properties.
+The JDCalendar component contains a list of attributes which can change the color and text sizes of elements in the calendar. This attributes can be set either from the layout or programmatically throught properties.
 
 Customizable attributes, in between parentheses are the formats of the attributes.:
 
