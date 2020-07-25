@@ -62,7 +62,7 @@ This will ensure that all the coroutines launched by consequence of navigating t
 
 The JDCalendar component contains a list of attributes which can change the color and text sizes of elements in the calendar. This attributes can be set either from the layout or programmatically throught properties.
 
-Customizable attributes, in between parentheses are the formats of the attributes.:
+Customizable attributes, in between parentheses are the formats of the attributes:
 
 - topSectionBackgroundColor (color) - the background color of the section which contains the previous/next arrows, the month and the year
 - weekDaysHeaderBackgroundColor (color) - the background color of the section which contains the short name (e.g MON) of the days of the week
