@@ -1,4 +1,13 @@
 # **JDCalendar**
+
+[![License](https://img.shields.io/github/license/i-on-project/android)](https://github.com/i-on-project/android/blob/master/LICENSE)
+[![](https://jitpack.io/v/i-on-project/android-calendar.svg)](https://jitpack.io/#i-on-project/android-calendar)
+[![GitHub tags](https://img.shields.io/github/v/tag/i-on-project/android)](https://github.com/i-on-project/android/tags)
+[![GitHub commits](https://img.shields.io/github/last-commit/i-on-project/android)](https://github.com/i-on-project/android/commits/master)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/i-on-project/android)](https://github.com/i-on-project/android/pulls/)
+[![GitHub issues](https://img.shields.io/github/issues/i-on-project/android)](https://github.com/i-on-project/android/issues/)
+[![GitHub contributors](https://img.shields.io/github/contributors/i-on-project/android)](https://github.com/i-on-project/android/graphs/contributors/)
+
 JDCalendar is an open-source fully customizable calendar component for the Android framework.
 
 ## Benefits
