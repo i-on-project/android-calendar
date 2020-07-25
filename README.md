@@ -25,8 +25,27 @@ By default the calendar presents the days and allows navigation between months. 
 </div>
 
 ## Using the calendar
+To use JDCalendar you first have to add the following dependencies to graddle.
 
-To use the calendar you have to first include the following tag in your layout:
+In project/build.graddle:
+
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+In your app module build.graddle:
+```gradle
+dependencies {
+    implementation 'com.github.i-on-project:android-calendar:1.0.0'
+}
+```
+
+Then in your activity or fragment layout you have to include the following tag:
 
 ```XML
 <org.ionproject.jdcalendar.JDCalendar
@@ -35,7 +54,7 @@ To use the calendar you have to first include the following tag in your layout:
         android:layout_height="wrap_content"/>
 ```
 
-Then in the ```onDestroy()``` callback of your activity or ```onDestroyView()``` of your fragments you **MUST** call ```destroy()``` like so:
+Finally in the ```onDestroy()``` callback of your activity or ```onDestroyView()``` of your fragments you **MUST** call ```destroy()``` like so:
 
 **For activities:**
 
@@ -62,7 +81,22 @@ This will ensure that all the coroutines launched by consequence of navigating t
 
 The JDCalendar component contains a list of attributes which can change the color and text sizes of elements in the calendar. This attributes can be set either from the layout or programmatically throught properties.
 
-Customizable attributes, in between parentheses are the formats of the attributes:
+Example:
+
+```XML
+<org.ionproject.jdcalendar.JDCalendar
+        android:id="@+id/jdcalendar_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:monthTextColor="#ffffff"
+        custom:nextButtonColor="#ffffff"
+        custom:prevButtonColor="#ffffff"
+        custom:topSectionBackgroundColor="#9e2514"
+        custom:yearTextColor="#ffffff" />
+```
+
+
+Customizable attributes list, in between parentheses are the formats of the attributes:
 
 - topSectionBackgroundColor (color) - the background color of the section which contains the previous/next arrows, the month and the year
 - weekDaysHeaderBackgroundColor (color) - the background color of the section which contains the short name (e.g MON) of the days of the week
