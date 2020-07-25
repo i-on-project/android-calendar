@@ -82,16 +82,16 @@ Internally, the JDCalendar uses an adapter to inflate the views that represent t
 
 Example implementation:
 ```Kotlin
-class MyCalendarAdapter() : CalendarAdapter<JDCalendarAdapter.JDViewHolder>() {
+class MyCalendarAdapter() : CalendarAdapter<MyCalendarAdapter.MyViewHolder>() {
 
     // Creates the ViewHolder
-    override fun onCreateViewHolder(parent: ViewGroup): JDViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup): MyViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.grid_item_jdcalendar, parent, false)
-        return JDViewHolder(view)
+        return MyViewHolder(view)
     }
 
     // Binds the ViewHolder to the day of the month
-    override fun onBindViewHolder(viewHolder: JDViewHolder, day: Day, position: Int) {
+    override fun onBindViewHolder(viewHolder: MyViewHolder, day: Day, position: Int) {
         viewHolder.bind(day)
     }
 
