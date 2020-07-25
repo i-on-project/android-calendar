@@ -120,7 +120,7 @@ To implement a custom adapter you first have to extend the abtract class ```Cale
 
 - ```onBindViewHolder(viewHolder: VH, day: Day, position: Int)```: this method must bind the viewHolder to the ```Day``` object passed as parameter. Here you should contain all the logic regarding the displaying of the day of the month. The day object contains information about the current day being displayed in the calendar. Here you can bind the day however you want, for example you can go to your ViewModel, check if this day has any events and bind them to the ViewHolder. This method will be called for each day of the calendar when the calendar is first created and everytime the month is changed.
 
-You also have to create a class that extends the ```ViewHolder``` abstract class which is a container of a view used inside the calendar grid. In the exemple above the ViewHolder contains a single method which transfers the current day value from the ```Day``` object to the TextView.
+You also have to create a class that extends the ```ViewHolder``` abstract class which is a container of a view used inside the calendar grid. In the example above the ViewHolder contains a single method which transfers the current day value from the ```Day``` object to the TextView.
 
 To associate the example ```MyCalendarAdapter``` with JDCalendar all you have to to is:
 
