@@ -64,7 +64,7 @@ The JDCalendar component contains a list of attributes which can change the colo
 
 Customizable attributes, in between parentheses are the formats of the attributes.:
 
-- topSectionBackgroundColor (color) - the background color of the section which contains the buttons, the month and the year
+- topSectionBackgroundColor (color) - the background color of the section which contains the previous/next arrows, the month and the year
 - weekDaysHeaderBackgroundColor (color) - the background color of the section which contains the short name (e.g MON) of the days of the week
 - monthDaysGridBackgroundColor (color) - the background color of the grid containing the days of the month
 - nextButtonColor (color) - the color of right the arrow 
