@@ -111,7 +111,7 @@ Customizable attributes list, in between parentheses are the formats of the attr
 
 ### Custom adapter
 
-Internally, the JDCalendar uses an adapter to inflate the views that represent the days of the month. This adapter can be customized to fit your app needs. Similarly to the RecyclerView component the JDCalendar exposes a property, ```adapter```, which can be set with a custom implementation of the ```CalendarAdapter``` abstract class. This class contains a set of methods that control the instantiation and binding of the views within the days grid.
+Internally, the JDCalendar uses an adapter to inflate the views that represent the days of the month. This adapter can be customized to fit your app needs. Similarly to the RecyclerView component, the JDCalendar exposes a property, ```adapter```, which can be set with a custom implementation of the ```CalendarAdapter``` abstract class. This class contains a set of methods that control the instantiation and binding of the views within the days grid.
 
 Example implementation:
 ```Kotlin
