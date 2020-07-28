@@ -24,9 +24,9 @@ By default the calendar presents the days and allows navigation between months. 
 </div>
 
 ## Using the calendar
-To use JDCalendar you first have to add the following dependencies to graddle.
+To use JDCalendar you first have to add the following dependencies to gradle.
 
-In project/build.graddle:
+In project/build.gradle:
 
 ```gradle
 allprojects {
@@ -37,7 +37,7 @@ allprojects {
 }
 ```
 
-In your app module build.graddle:
+In your app module build.gradle:
 ```gradle
 dependencies {
     implementation 'com.github.i-on-project:android-calendar:1.0.0'
